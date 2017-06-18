@@ -1,0 +1,64 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu" rel="stylesheet">
+<style type="text/css">
+body{
+	/*font-family: 'Ubuntu', sans-serif;*/
+font-family: 'Lobster', cursive;
+color: white;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #401060;
+    color: white;
+}
+button {
+	color: black;
+}	
+button:hover {
+	background: skyblue;
+}
+</style>
+
+</head>
+   
+<body>
+      <!-- -->
+  
+      <div class="container">
+        <input id= "txtEmail" type="email" placeholder="Email">
+
+        <input id="txtPassword" type="password"
+        placeholder="Password">
+
+        <br>
+
+        <button id="btnLogin" class="btn btn-action">
+          Log in
+        </button>
+        
+        <button id="btnSignUp" class="btn btn-secondary">
+          Sign Up
+        </button> 
+
+        <button id="btnLogOut" class="btn btn-action hide">
+          log out
+        </button>
+      </div>
+     
+
+  
+    
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+   
+<script type="text/javascript" src="login.js"></script>
+
+
+</body>
+</html>
